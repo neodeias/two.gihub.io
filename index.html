@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title id="title"></title>
+
+
+	<style>
+    body {
+        background-color: #292357;
+        font-size: 36px;        
+    }        
+	</style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Marquee Running Text</title>
+<link rel="stylesheet" type="text/css" href="a2.css">
+</head>
+<body>
+
+    <marquee class="a1b" id="marq1" behavior="scroll" direction="left" scrollamount="10"  > 
+        Assalammualaikum................ Selamat Datang di UPT. ASRAMA HAJI EMBARKASI MEDAN                                                  
+    </marquee>
+	
+	<script type="text/javascript">	
+		  //document.mar1.nm1.value="hello sdsa asd asd asd asd asd as";		  
+		  document.getElementById("marq1").style.fontFamily = "Georgia";
+		   document.getElementById("marq1").style.color = "#00ff00";
+			function fromCsharp(Message){				
+				document.getElementById('marq1').innerHTML =  Message;	
+			}
+		  
+	</script>
+	
+	
+</body>
+</html>
